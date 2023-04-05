@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myButton{
+            margin: 300px 0 0 400px;
+            background-color: red;
+            border: 2px solid rgb(107, 69, 19);
+            height: 70px;
+            width: 200px;
+            border-radius: 30px;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<button id="myButton" onclick="myfunction()">CLICK</button>
+
+
+<script>
+function myfunction(){
+    let a=document.getElementById("myButton")
+    console.log(a);
+    alert("Warning")
+} 
+
+
+</script>
+<!--in the below- another  way only in DOM in external js  -->
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
